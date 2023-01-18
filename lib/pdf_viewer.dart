@@ -3,7 +3,8 @@ import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 
 class PdfViewerScreen extends StatefulWidget {
   final String url;
-  const PdfViewerScreen({super.key, required this.url});
+  final String title;
+  const PdfViewerScreen({super.key, required this.url, required this.title});
 
   @override
   State<PdfViewerScreen> createState() => _PdfViewerScreenState();
@@ -12,20 +13,26 @@ class PdfViewerScreen extends StatefulWidget {
 class _PdfViewerScreenState extends State<PdfViewerScreen> {
   @override
   Widget build(BuildContext context) {
-    return PDFViewerCachedFromUrl(url: widget.url);
+    return PDFViewerCachedFromUrl(
+      url: widget.url,
+      title: widget.title,
+    );
   }
 }
 
 class PDFViewerCachedFromUrl extends StatelessWidget {
-  const PDFViewerCachedFromUrl({Key? key, required this.url}) : super(key: key);
+  const PDFViewerCachedFromUrl(
+      {Key? key, required this.url, required this.title})
+      : super(key: key);
 
   final String url;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cached PDF From Url'),
+        title: Text(title),
       ),
       body: Container(
         // height: MediaQuery.of(context).size.height,

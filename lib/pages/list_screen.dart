@@ -44,9 +44,13 @@ class _ListScreenState extends State<ListScreen> {
                           context,
                           CupertinoPageRoute(
                               builder: ((context) => PdfViewerScreen(
-                                  url: snapshot.data!.entries
-                                      .elementAt(index)
-                                      .value))));
+                                    url: snapshot.data!.entries
+                                        .elementAt(index)
+                                        .value,
+                                    title: snapshot.data!.entries
+                                        .elementAt(index)
+                                        .key,
+                                  ))));
                     },
                     child: ListTile(
                       leading: CircleAvatar(
