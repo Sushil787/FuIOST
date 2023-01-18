@@ -5,7 +5,7 @@
 
 
 ## Features
-- ###### Shows the current notice, exam schedule and results by Tribhuvan University Institute of Science & Technology (TUIOST),
+- ###### Shows the current notice, exam schedule and results by Tribhuvan University Institute of Science & Technology (TUIOST)
 - ######  It cached the pdf data in local storage and after 20hr the data is deleted from cache
 
 
