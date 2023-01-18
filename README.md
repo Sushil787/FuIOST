@@ -1,5 +1,5 @@
-# Data Scrapper
-#### For scrappping tuiost data and showing the data in mobile view
+# FUIOST
+##### Flutter App For scrappping tuiost data and showing the data in mobile view
 
 
 
@@ -10,16 +10,14 @@
 
 
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
 
-## Tech
-# flutter webscrapper
+
+
+
+## Getting Started 🚀
 
 A new Flutter project.
 
-## Getting Started
 
 This project is a starting point for a Flutter application.
 
@@ -40,31 +38,17 @@ samples, guidance on mobile development, and a full API reference.
 
   </tr>
  </table>
+
+ ### Libraries & Tools Used
+
+* [Dio](https://github.com/flutterchina/dio)
+* [Html](https://pub.dev/packages/flutter_cached_pdfview)
+* [Flutter Pdf View](https://pub.dev/packages/flutter_cached_pdfview)
+
+
+
+
 ## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-git clone link proj1
-```
-
-For production environments...
-
-```sh
-flutter pub get
-```
-
-## Plugins
-
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-
-
-
-## How to Use 
 
 
 Download or clone this repo
@@ -72,7 +56,7 @@ Download or clone this repo
 First Step:
 
 ```sh
-git clone "" prj
+git clone https://github.com/Sushil787/FuIOST.git prj
 ```
 
 Second Step:

@@ -38,8 +38,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   dio: ^4.0.6
   html: ^0.15.1
-  path_provider: ^2.0.11
-  file_picker: ^5.2.5
   flutter_cached_pdfview: ^0.4.1
 
 dev_dependencies:
